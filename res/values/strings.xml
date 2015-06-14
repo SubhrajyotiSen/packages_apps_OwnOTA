@@ -71,8 +71,7 @@
 
     <!-- URL's -->
     <string name="download_url">http://owndroid.nl</string>
-    <string name="changelog_url">http://ownrom.github.io/Changelog.txt</string>
-    <string name="xda_url">http://forum.xda-developers.com/member.php?u=5364955</string>
+    <string name="changelog_url">http://owndroid.nl/changelog.html</string>
     <string name="gapps_url">http://owndroid.nl</string>
 
     <!-- Update checker -->

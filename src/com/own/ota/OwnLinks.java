@@ -61,7 +61,6 @@ public class OwnLinks extends Fragment {
     private LinearLayout mChangelog;
     private LinearLayout mDownloadGapps;
     private LinearLayout mGoogleplus;
-    private LinearLayout mXda;
     private LinearLayout mSource;
     private LinearLayout mReport;
 
@@ -116,8 +115,6 @@ public class OwnLinks extends Fragment {
                 launchUrl(getString(R.string.gapps_url));
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/108869588356214314591");
-            } else if (v == mXda) {
-                launchUrl(getString(R.string.xda_url));
             } else if (v == mSource) {
                 launchUrl("http://github.com/OwnROM");
             } else if (v == mReport) {
