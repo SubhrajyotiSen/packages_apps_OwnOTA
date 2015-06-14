@@ -1,3 +1,3 @@
 packages_apps_OTACenter
 ==========================
-Euphoria-OS OTA App
+OwnROM OTA App, based of Euphoria-OS's
