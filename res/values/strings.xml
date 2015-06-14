@@ -76,7 +76,7 @@
     <string name="gapps_url">http://owndroid.nl</string>
 
     <!-- Update checker -->
-    <string name="xml_url">https://raw.githubusercontent.com/OwnROM-Devices/OTACenter/master/ota.xml</string>
+    <string name="xml_url">http://ownrom-devices.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
