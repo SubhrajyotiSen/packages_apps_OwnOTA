@@ -145,9 +145,6 @@ public class OwnLinks extends Fragment {
         mGoogleplus = (LinearLayout) getView().findViewById(R.id.googleplus);
         mGoogleplus.setOnClickListener(mActionLayouts);
 
-        mXda = (LinearLayout) getView().findViewById(R.id.xda);
-        mXda.setOnClickListener(mActionLayouts);
-
         mSource = (LinearLayout) getView().findViewById(R.id.source);
         mSource.setOnClickListener(mActionLayouts);
 
