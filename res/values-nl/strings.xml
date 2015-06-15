@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Mahdi-ROM
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- Main strings -->
+    <string name="app_name">OTA Center</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="device_title">Toestel</string>
+    <string name="device_name_title">Naam:</string>
+    <string name="codename_title">Codenaam:</string>
+    <string name="version_title">Versie:</string>
+    <string name="file_name_title">Bestand:</string>
+    <string name="curVer">Huidige Versie</string>
+    <string name="device_info_title">Toestel Informatie</string>
+    <string name="up_to_date_title">Uw Systeem is up-to-date</string>
+    <string name="no_data_title">Geen data connectie beschikbaar</string>
+    <string name="error_reading_title">Kan bestand niet lezen</string>
+    <string name="reboot">Klaar! Herstart uw toestel.</string>
+    <string name="reboot_ok">Herstart nu</string>
+    <string name="reboot_cancel">Niet herstarten</string>
+    <string name="refresh_button">Vernieuwen</string>
+
+    <!-- Settings -->
+    <string name="settings_title">OTA Instellingen</string>    
+    <string name="update_interval_title">Automatische update check interval</string>
+    <string name="update_interval_summary">Stel automatische update check interval in</string>
+    <string name="update_interval_day">Elke 24 uur</string>
+    <string name="update_interval_half_day">Elke 12 uur</string>
+    <string name="update_interval_hour">Elk uur</string>
+    <string name="update_interval_disable">Uitschakelen</string>
+
+    <!-- Error messages -->
+    <string name="system_prop_error">Kan systeem niet lezen</string>
+    <string name="bad_url">Kan download niet bereiken. Neem contact op met je maintainer!</string>
+    <string name="menu_update">Kijk of er een update beschikbaar is.</string>
+    <string name="toast_text">Zoeken naar beschikbare updates, een moment.</string>
+    <string name="toast_no_data_text">Geen data. Schakel data in AUB.</string>
+
+    <!-- Shortcut fragment -->
+    <string name="short_cut_release_title">ROM Info</string>
+    <string name="short_cut_changelog_summary_update_available">Let op!!! Lees de changelog aandachtig</string>
+    <string name="short_cut_download_summary_update_available">Nieuwe update beschikbaar, click om te downloaden!</string>
+    <string name="short_cut_changelog_summary">Lees de changelog</string>
+    <string name="short_cut_additional_title">Extra</string>
+    <string name="short_cut_faq_summary">Verwacht!</string>
+    <string name="short_cut_news_title">Nieuws</string>
+    <string name="short_cut_news_summary">Lees de laatste nieuwtjes</string>
+    <string name="short_cut_download_uptodate_summary">Download de laatste versie</string>
+    <string name="short_cut_download_gapps_summary">Download het laatste Gapps pakket</string>
+
+    <!-- Update checker -->
+    <string name="notification_message">ROM update beschikbaar</string>
+
+    <!-- About -->
+    <string name="googleplus_summary">Bezoek onze Google+ community</string>
+    <string name="xda_summary">Bezoek de XDA thread</string>
+    <string name="about_title">Over</string>
+    <string name="website_summary">Vind het laatste nieuws hier</string>
+    <string name="donate_title">Doneer</string>
+    <string name="donate_summary">Doneer</string>
+    <string name="center_summary"><b>OTACenter</b> Stelt tools &amp; informatie beschikbaar om je ervaringen met de ROM beter te maken. Upgrade naar de nieuwste versie van onze ROM met de <b>OTACenter</b>.</string>
+    <string name="bugreport_title">Bugreport</string>
+    <string name="bugreport_summary">Maak een complete bugreport</string>
+    <string name="report_infosuccess">Systeem rapport gemaakt, geef deze aan het OwnROM Team. je kan deze in een zip file vinden op de sd kaard, genaamd \"BugReport\".</string>
+    <string name="report_infofail">Niet gelukt om Bugreport te maken, probeer het nog eens.</string>
+
+    <string name="about_ota">OTACenter maak het makkelijk om je ROM up-to-date te houden!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2015 aangpast voor OwnROM</string>
+    <string name="about_contact">Neem contact met ons op via askowndroid@gmail.com</string>
+    <string name="about_contact_text">Vertel ons wat je denkt, of neem contact met ons op voor een bug of probleem</string>
+    <string name="about_license">Open source licencies</string>
+
+    <!-- Sizer  -->
+    <string name="listsystem">lijst</string>
+    <string name="sizer_title">Systeem Apps</string>
+    <string name="caution">Pas op!</string>
+    <string name="sizer_message_startup">Met deze tool kan je systeem apps verwijderen. Gebruik het met je verstand en verwijder alleen systeem apps waarvan je zeker weet dat ze vewrijderd kunnen worden.</string>
+    <string name="cancel">Annuleren</string>
+    <string name="sizer_message_delete">Weet je zeker dat je deze app wil verwijderen?</string>
+    <string name="sizer_message_delete_multi_one">Weet je zeker dat je deze app wil verwijderen?</string>
+    <string name="sizer_message_delete_multi">weet je zeker dat je deze apps wil verwijderen?</string>
+    <string name="btn_delete">Verwijder de geselecteerde apps!</string>
+    <string name="delete_progress_title">Verwijderen</string>
+    <string name="delete_progress">Geselecteerde bestanden aan het verwijderen, geduld AUB.</string>
+    <string name="delete_success">Verwijderd</string>
+    <string name="delete_fail">Niet mogelijk te verwijderen</string>
+    <string name="btn_profile">Profiel</string>
+    <string name="sizer_message_sdnowrite">Kan niet naar SD kaart schrijven.</string>
+    <string name="sizer_message_sdnoread">Kan SD kaart niet lezen.</string>
+    <string name="sizer_message_filesuccess">Profiel gemaakt.</string>
+    <string name="sizer_message_filefail">Kan profiel niet maken.</string>
+    <string name="sizer_message_noselect">Niks geslecteerd.</string>
+</resources>
