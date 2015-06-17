@@ -42,7 +42,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.own.center.OTACenter;
+import com.own.center.OwnOTA;
 import com.own.ota.R;
 
 public class UpdateChecker extends AsyncTask<Context, Integer, String> {
@@ -122,7 +122,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     protected String doInBackground(Context... arg) {
         mContext = arg[0];
         Message msg;
-        if (mContext != null && mContext.toString().contains("OTACenter")) {
+        if (mContext != null && mContext.toString().contains("OwnOTA")) {
             msg = mHandler.obtainMessage(MSG_CREATE_DIALOG);
             mHandler.sendMessage(msg);
         }
@@ -209,7 +209,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     protected void onPostExecute(String result) {
         super.onPostExecute(result);
         if (mNoLog == false) Log.d("\r\n"+TAG, "result= "+result+"\n context="+mContext.toString()+"\r\n");
-        if (mContext != null && mContext.toString().contains("OTACenter")) {
+        if (mContext != null && mContext.toString().contains("OwnOTA")) {
             Message msg = mHandler.obtainMessage(MSG_CLOSE_DIALOG);
             mHandler.sendMessage(msg);
         } else if (result == null) {
@@ -230,7 +230,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             .setSmallIcon(R.drawable.ic_notification_ota)
             .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.app_icon));
 
-        Intent intent = new Intent(mContext, OTACenter.class);
+        Intent intent = new Intent(mContext, OwnOTA.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         final PendingIntent pendingIntent = PendingIntent.getActivity(mContext,
                     0, intent, PendingIntent.FLAG_ONE_SHOT);
@@ -243,7 +243,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     }
 
     private void showInvalidLink() {
-        if (mContext != null && mContext.toString().contains("OTACenter")) {
+        if (mContext != null && mContext.toString().contains("OwnOTA")) {
             Message msg = mHandler.obtainMessage(MSG_DISPLAY_MESSAGE, mContext.getString(R.string.bad_url));
             mHandler.sendMessage(msg);
         } else {
