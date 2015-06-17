@@ -33,7 +33,8 @@
     <string name="reboot_ok">Herstart nu</string>
     <string name="reboot_cancel">Niet herstarten</string>
     <string name="refresh_button">Vernieuwen</string>
-
+	<string name="own_stats_summary">Bekijk hoevaak OwnROM geinstalleerd is</string>
+	
     <!-- Settings -->
     <string name="settings_title">OTA Instellingen</string>    
     <string name="update_interval_title">Automatische update check interval</string>
@@ -60,7 +61,7 @@
     <string name="short_cut_news_title">Nieuws</string>
     <string name="short_cut_news_summary">Lees de laatste nieuwtjes</string>
     <string name="short_cut_download_uptodate_summary">Download de laatste versie</string>
-    <string name="short_cut_download_gapps_summary">Download het laatste Gapps pakket</string>
+    <string name="short_cut_download_gapps_summary">Download het laatste OwnG-apps pakket</string>
 
     <!-- Update checker -->
     <string name="notification_message">ROM update beschikbaar</string>

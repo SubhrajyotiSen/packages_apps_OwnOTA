@@ -66,13 +66,13 @@
     <string name="short_cut_news_summary">Read about latest news</string>
     <string name="short_cut_download_title">Download</string>
     <string name="short_cut_download_uptodate_summary">Download the latest version</string>
-    <string name="short_cut_download_gapps_title">Gapps</string>
-    <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
+    <string name="short_cut_download_gapps_title">OwnG-apps</string>
+    <string name="short_cut_download_gapps_summary">Download the latest OwnG-apps package</string>
+	<string name="own_stats_title">Own Stats</string>
+	<string name="own_stats_summary">Check the install status of OwnROM</string>
 
     <!-- URL's -->
     <string name="download_url">http://owndroid.nl</string>
-    <string name="changelog_url">http://owndroid.nl/changelog.html</string>
-    <string name="gapps_url">http://owndroid.nl</string>
 
     <!-- Update checker -->
     <string name="xml_url">http://ownrom-devices.github.io/ota.xml</string>

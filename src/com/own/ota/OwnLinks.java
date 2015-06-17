@@ -62,6 +62,7 @@ public class OwnLinks extends Fragment {
     private LinearLayout mDownloadGapps;
     private LinearLayout mGoogleplus;
     private LinearLayout mSource;
+    private LinearLayout mOwnStats;
     private LinearLayout mReport;
 
     private TextView mDownloadTitle;
@@ -110,13 +111,15 @@ public class OwnLinks extends Fragment {
                 }
 
             } else if (v == mChangelog) {
-                launchUrl(getString(R.string.changelog_url));
+                launchUrl("http://owndroid.nl/changelog.html");
             } else if (v == mDownloadGapps) {
-                launchUrl(getString(R.string.gapps_url));
+                launchUrl("https://www.androidfilehost.com/?w=files&flid=32379");
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/108869588356214314591");
             } else if (v == mSource) {
                 launchUrl("http://github.com/OwnROM");
+            } else if (v == mOwnStats) {
+                launchUrl("http://owndroid.nl/Stats/stats.php");
             } else if (v == mReport) {
                 bugreport();
             }
@@ -147,6 +150,9 @@ public class OwnLinks extends Fragment {
 
         mSource = (LinearLayout) getView().findViewById(R.id.source);
         mSource.setOnClickListener(mActionLayouts);
+
+        mOwnStats = (LinearLayout) getView().findViewById(R.id.ownstats);
+        mOwnStats.setOnClickListener(mActionLayouts);
 
         mReport = (LinearLayout) getView().findViewById(R.id.bugreport);
         mReport.setOnClickListener(mActionLayouts);
