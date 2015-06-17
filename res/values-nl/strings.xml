@@ -34,7 +34,7 @@
     <string name="reboot_cancel">Niet herstarten</string>
     <string name="refresh_button">Vernieuwen</string>
 	<string name="own_stats_summary">Bekijk hoevaak OwnROM geinstalleerd is</string>
-	
+
     <!-- Settings -->
     <string name="settings_title">OTA Instellingen</string>    
     <string name="update_interval_title">Automatische update check interval</string>

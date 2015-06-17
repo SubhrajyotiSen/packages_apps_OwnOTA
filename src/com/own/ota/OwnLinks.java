@@ -9,7 +9,7 @@
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel, blk_jack
- *  DESCRIPTION: SlimOTA keeps our rom up to date
+ *  DESCRIPTION: OwnOTA keeps our rom up to date
  *
  *=========================================================================
  */
