@@ -29,7 +29,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class OwnOTA extends Activity {
+public class OwnOTACenter extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
