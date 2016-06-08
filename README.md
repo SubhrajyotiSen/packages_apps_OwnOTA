@@ -35,6 +35,9 @@ For OwnROM maintainers
 * Go to [HERE](https://raw.githubusercontent.com/OwnROM/packages_apps_OwnOTA/own-mm/examples/ota_conf) and copy the content a file named "ota_conf" placed in the OwnROM source top folder.
 * Replace the "ota_url= " with your own link you saved from the raw xml url
 * and your done
+* IMPORTAND!!!!!
+ALLWAYS SET OWNROM_BUILDTYPE TO OFFICIAL_Nightly or OFFICIAL_Release or the OTA WILL NOT WORK!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!NOT JUST OFFICIAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Credits
 -------
