@@ -37,6 +37,7 @@ For OwnROM maintainers
 * and your done
 * IMPORTAND!!!!!
 ALLWAYS SET OWNROM_BUILDTYPE TO OFFICIAL_Nightly or OFFICIAL_Release or the OTA WILL NOT WORK!!!!!
+
 !!!!!!!!!!!!!!!!!!!!!!!NOT JUST OFFICIAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Credits
