@@ -7,9 +7,9 @@
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically 
 #
-ota_url=https://www.dropbox.com/s/u2k60hvjn2c02h0/ota_lollipop.xml?dl=1
-release_type=Stable
-device_name=ro.product.device
+ota_url= https://raw.githubusercontent.com/OwnROM-Devices/OTA/master/Maintainers/OwnDroid.xml
+release_type= Stable
+device_name= ro.ownrom.device
 
 #
 # VERSION
@@ -18,11 +18,11 @@ device_name=ro.product.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.modversion' : Parse the date 20150426 from 'SlimSaber-bacon-5.0.2-20150426'
+# Example with a property key 'ro.modversion' : Parse the date 20160515 from 'OwnROM-OFFCIAL-Nightly-v3.0-angler-20160515.zip'
 #
 # Version source: ro.modversion
 # Version delimiter: -
-# Version position: 3 (zero based)
+# Version position: 5 (zero based)
 # Version format: yyyyMMdd
 #
 # Example with 'uname -r': Parse the number 239 from '3.4.107~AK.239.OPO.CM12.1'
@@ -32,7 +32,7 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
-version_delimiter=-
-version_position=3
-version_format=yyyyMMdd
+version_source= ro.ownrom.version
+version_delimiter= -
+version_position= 5
+version_format= yyyyMMdd
