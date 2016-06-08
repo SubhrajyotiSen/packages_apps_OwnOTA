@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.own.ota.configs;
 
 import android.content.Context;
 
-import com.resurrection.ota.utils.OTAUtils;
+import com.own.ota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
