@@ -36,7 +36,7 @@ For OwnROM maintainers
 * Replace the "ota_url= " with your own link you saved from the raw xml url
 * and your done
 * IMPORTAND!!!!!
-ALLWAYS SET OWNROM_BUILDTYPE TO OFFICIAL-Nightly or OFFICIAL-Release or the OTA WILL NOT WORK!!!!!
+ALLWAYS SET OWNROM_BUILDTYPE TO OFFICIAL-Nightly or OFFICIAL-Release or the OTA WILL NOT WORK!!!!!!
 
 !!!!!!!!!!!!!!!!!!!!!!!NOT JUST OFFICIAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
