@@ -1,0 +1,3 @@
+<WakefulIntentService
+    listener="com.own.ota.scheduler.OTAListener"
+    />
