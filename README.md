@@ -9,7 +9,7 @@ If the version is newer, it notifies the user for a new ROM update.
 
 How to use
 ----------
-* Prepare the OTA xml file. Use this [template](ota_url= https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/OwnDroid.xml).
+* Prepare the OTA xml file. Use this [template](https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/OwnDroid.xml).
 * Upload it to your file hosting and create a hot link of it
 * Copy the [ota_conf template](https://raw.githubusercontent.com/OwnROM/packages_apps_OwnOTA/own-n/examples/ota_conf) to app/src/main/assets folder
   * If you are buiding this app as part of the ROM, you need to copy ota_conf in the android root folder.
