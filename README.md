@@ -38,7 +38,7 @@ For OwnROM maintainers
 -----------------------
 * Sync OwnOTA or wait till full sync
 * go to [HERE](https://github.com/OwnROM-Devices/OTA/tree/master/Maintainers) and make a xml file with your name or nickname
-* Copy the content of [OwnDroid.xml](ota_url= https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/OwnDroid.xml) and make the references to your rom, links and stuff
+* Copy the content of [OwnDroid.xml](https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/OwnDroid.xml) and make the references to your rom, links and stuff
 * Save it
 * Click on "Raw" and save the link
 * Go to [HERE](https://raw.githubusercontent.com/OwnROM/packages_apps_OwnOTA/own-n/examples/ota_conf) and copy the content a file named "ota_conf" placed in the OwnROM source top folder.
