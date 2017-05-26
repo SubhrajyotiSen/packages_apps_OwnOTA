@@ -37,7 +37,7 @@ build.prop that represents your device name and set it in the "device_name" OwnO
 For OwnROM maintainers
 -----------------------
 * Sync OwnOTA or wait till full sync
-* go to [HERE](https://github.com/OwnROM-Devices/OTA/tree/master/Maintainers) and make a xml file with your name or nickname
+* go to [HERE](https://github.com/OwnROM-Devices/OTA) and make a xml file with your name or nickname
 * Copy the content of [OwnDroid.xml](https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/OwnDroid.xml) and make the references to your rom, links and stuff and put into the newly made xml file on OTA repository
 * Save it
 * Click on "Raw" and save the link
